@@ -1274,7 +1274,7 @@ class _InteractiveViewerBuilt extends StatelessWidget {
 
     if (!constrained) {
       child = OverflowBox(
-        alignment: Alignment.topLeft,
+        alignment: Alignment.center,
         minWidth: 0.0,
         minHeight: 0.0,
         maxWidth: double.infinity,
